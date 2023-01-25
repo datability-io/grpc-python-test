@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package grpc_test.proto;
+
+import "grpc_test/xyz/msg.proto";
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello(HelloRequest) returns (HelloReply) {}
+}

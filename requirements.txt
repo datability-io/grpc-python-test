@@ -1,0 +1,5 @@
+build==0.10.0
+grpcio==1.51.1
+grpcio-tools==1.51.1
+pre-commit==2.21.0
+twine==4.0.2
